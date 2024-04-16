@@ -58,77 +58,6 @@ img {
 	max-width: 100%
 }
 
-.service{
-	color: #0032A0;
-}
-.service:link{
-	text-decoration: none;
-	font-weight: bold;
-}
-.opp{
-	text-decoration: none;
-	font-weight: bold;
-}
-.opp:visited{
-	color: #808080;
-}
-.email-num, .link{
-	color: #0032A0;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.c-img{
-	text-align: center;
-	max-width: 100%;
-}
-.bg-img img{
-	max-width: 100%;
-}
-.sm-img img{
-	max-width: 100%;
-}
-
-/*Style rules for form elements*/
-#form{
-	font-family: 'Almarai', Helvetica, sans-serif;
-	margin-top: 1%;
-	background-color: #0032A0;
-	padding: 2%;
-	color: #FFFFFF;
-}
-	
-#form h2{
-	text-align: center;
-	font-size: 25px;
-}
-
-fieldset, input, select, textarea{
-	margin-bottom: 2%;
-}
-
-fieldset legend{
-	font-weight: bold;
-	font-size: 20px;
-}
-
-label{
-	display: block;
-	padding-top: 1%;
-}
-	
-form #submit{
-	margin: 0 auto;
-	border: none;
-	display: block;
-	padding: 1%;
-	background-color: #FFFFFF;
-	font-size: 20px;
-	border-radius: 5px;
-	font-weight: bold;
-	color: #0032A0;
-}
-
 /* Style rules for footer content */
 footer {
 	background-color: #0032A0;
@@ -151,27 +80,6 @@ footer p a {
 	
 	.tablet-desktop {
 		display: block;
-	}
-	
-	#hero{
-		background-image: url(../images/hero.jpg);
-		height: 50vh;
-		background-position: center center;
-		background-size: cover;
-		background-repeat: no-repeat;
-		position: relative;
-	}
-	
-	#hero h1 a{
-		text-decoration: none;
-	}
-	
-	#logo img{
-		width: 150px;
-		float: left;
-		padding-left: 5%;
-		padding-right: 2%;
-		
 	}
 	
 	/*Navigation Bar*/
@@ -255,18 +163,9 @@ footer p a {
 		display: block;
 	}
 	
-	
-	
-	article{
-		text-align: center;
-	}
-	
 	h1{
 		text-align: center;
 		font-family: 'Vollkorn', Georgia, serif;
-	}
-	.sports-container{
-		text-align: center;
 	}
 	
 	/*div sections in home*/
