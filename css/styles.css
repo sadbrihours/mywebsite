@@ -60,7 +60,7 @@ img {
 
 /* Style rules for footer content */
 footer {
-	background-color: #0032A0;
+	background-color: #c9e0f0;
 	padding: .5em;
 }
 
@@ -84,7 +84,7 @@ footer p a {
 	
 	/*Navigation Bar*/
 	nav{
-		background-color:#0032A0;
+		background-color:#c9e0f0;
 	}
 	
 	nav ul {  
@@ -130,7 +130,7 @@ footer p a {
 	}
 	
 	nav ul li a:hover, .prim-dd:hover .dropbtn {
-		background-color: #002a87;
+		background-color: #c9e0f0;
 		
 	}
 	
@@ -144,7 +144,7 @@ footer p a {
 		position: absolute;
 		width: 25%;
 		text-align: center;
-		background-color: #002a87;
+		background-color: #c9e0f0;
 		border-top: 3px solid #FFFFFF;
 	}
 	
@@ -156,7 +156,7 @@ footer p a {
 	}
 	
 	.sub-dd a:hover {
-		background-color: #00226d;
+		background-color: #c9e0f0;
 	}
 
 	.prim-dd:hover .sub-dd {
