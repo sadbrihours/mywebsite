@@ -1,12 +1,3 @@
-/*Notes*/
-/*Fonts code
-font-family: 'Almarai', Helvetica, sans-serif;
-font-family: 'Vollkorn', Georgia, serif;
-*/
-/*This website was created by: 
-  Mobile: Chase Davignon
-  Tablet/Desktop: Brianna Lee
-*/
 
 /*CSS Reset*/
 body,header,nav,main,footer,img,div,ul {
@@ -33,7 +24,7 @@ body {
 /* Style rule for header content*/
 
 .ban-img{
-	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../images/hero.jpg);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../images/cloud.jpg);
 	height: 50vh;
 	background-position: center center;
 	background-size: cover;
@@ -51,33 +42,8 @@ body {
 
 /*Style rules for navigate area*/
 
-
-/*Show mobile class, hide tablet-desktop class*/
-.mobile {
-	display: block;
-}
-
 .tablet-desktop, #menu-links {
 	display: none;
-}
-
-/*Style rules for Hamburger Menu*/
-.mobile-nav a {
-	text-decoration: none;
-	text-align: center;
-	font-size: 2em;
-	font-family: 'Almarai', Helvetica, sans-serif;
-	color: #0032A0;
-	padding: 3%;
-	display: block;
-}
-
-.mobile-nav a.menu-icon {
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 0;
-	color: #0032A0;
 }
 
 /*Style rules for main content*/
@@ -197,9 +163,6 @@ footer p a {
 
 /* Media Query for Tablet/Desktop Viewport */
 @media screen and (min-width: 600px){
-	.mobile{
-		display: none;
-	}
 	
 	.tablet-desktop {
 		display: block;
@@ -364,68 +327,7 @@ footer p a {
 		font-family: 'Almarai', Helvetica, sans-serif;
 	}
 	
-	
-	
-	
-	/*table in home*/
-	table{
-		margin-left: auto;
-		margin-right: auto;
-	}
-	caption{
-		font-size: 30px;
-		font-family: 'Vollkorn', Georgia, serif;
-		font-weight: bold;
-	}
-	table, th, td {
-		border: 1px solid white;
-		border-collapse: collapse;
-	}
-	th, td {
-		background-color: #0032A0;
-		color: #FFFFFF;
-		font-family: 'Almarai', Helvetica, sans-serif;
-		padding: 1em;
-		text-align: center;
-	}
-	th{font-size: 25px;}
-	
-	td{font-size: 20px;}
-	
-	.table-events th, td{
-		padding: 10px;
-	}
-
-	.mobile, .moble-nav , .menu-icon div {
-		display: none;
-	}
-	
-	.mobile-nav {
-		display: none;
-	}
-	
 } /* End Brace for Media Query */
-
-/* Media Query for Desktop's Form Viewport */
-@media screen and (min-width: 1280px), print{
-	
-	form {
-        width: auto;
-        margin-bottom: 2%;
-    }
-    
-    .form-grid {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-gap: 20px; 
-    }
-    
-    .btn {
-        grid-column: 1 / span 3;
-    }
-	
-}
-
 
 
 
