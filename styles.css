@@ -1,0 +1,430 @@
+/*Notes*/
+/*Fonts code
+font-family: 'Almarai', Helvetica, sans-serif;
+font-family: 'Vollkorn', Georgia, serif;
+*/
+/*This website was created by: 
+  Mobile: Chase Davignon
+  Tablet/Desktop: Brianna Lee
+*/
+
+/*CSS Reset*/
+body,header,nav,main,footer,img,div,ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+p{
+	font-family: 'Almarai', Helvetica, sans-serif;
+	text-align: center;
+}
+h1, h2, h3{
+	text-align: center;
+	font-family: 'Vollkorn', Georgia, serif;
+}
+
+/*Style rules for mobile viewport*/
+
+body {
+	background-color: #fff;
+}
+
+/* Style rule for header content*/
+
+.ban-img{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../images/hero.jpg);
+	height: 50vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	
+.ban-img img{
+	height: 170px;
+	left: 50%;
+	margin-left:-92px;
+	margin-top: 7%;
+	z-index: 999;
+	position: absolute;	
+}
+
+/*Style rules for navigate area*/
+
+
+/*Show mobile class, hide tablet-desktop class*/
+.mobile {
+	display: block;
+}
+
+.tablet-desktop, #menu-links {
+	display: none;
+}
+
+/*Style rules for Hamburger Menu*/
+.mobile-nav a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Almarai', Helvetica, sans-serif;
+	color: #0032A0;
+	padding: 3%;
+	display: block;
+}
+
+.mobile-nav a.menu-icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #0032A0;
+}
+
+/*Style rules for main content*/
+main {
+	background-color: #fff;
+	padding: 2%;
+	font-size: 1em;
+	font-family: 'Vollkorn', 'Georgia',serif;
+}
+
+img {
+	max-width: 100%
+}
+
+video{
+	width: 100%;
+	height: auto;
+}
+.service{
+	color: #0032A0;
+}
+.service:link{
+	text-decoration: none;
+	font-weight: bold;
+}
+.opp{
+	text-decoration: none;
+	font-weight: bold;
+}
+.opp:visited{
+	color: #808080;
+}
+.ticket-link{
+	color: #0032A0;
+	text-decoration: none;
+}
+.ticket-link:active{
+	font-size: 30px;
+	color: #FFFFFF;
+	background: #0032A0;
+	text-decoration: none;
+}
+
+.email-num, .link{
+	color: #0032A0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.c-img{
+	text-align: center;
+	max-width: 100%;
+}
+.bg-img img{
+	max-width: 100%;
+}
+.sm-img img{
+	max-width: 100%;
+}
+
+/*Style rules for form elements*/
+#form{
+	font-family: 'Almarai', Helvetica, sans-serif;
+	margin-top: 1%;
+	background-color: #0032A0;
+	padding: 2%;
+	color: #FFFFFF;
+}
+	
+#form h2{
+	text-align: center;
+	font-size: 25px;
+}
+
+fieldset, input, select, textarea{
+	margin-bottom: 2%;
+}
+
+fieldset legend{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+label{
+	display: block;
+	padding-top: 1%;
+}
+	
+form #submit{
+	margin: 0 auto;
+	border: none;
+	display: block;
+	padding: 1%;
+	background-color: #FFFFFF;
+	font-size: 20px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: #0032A0;
+}
+
+/* Style rules for footer content */
+footer {
+	background-color: #0032A0;
+	padding: .5em;
+}
+
+footer p {
+	font-size: 0.8em;
+	text-align: center;
+	color: #fff;
+}
+
+footer p a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Media Query for Tablet/Desktop Viewport */
+@media screen and (min-width: 600px){
+	.mobile{
+		display: none;
+	}
+	
+	.tablet-desktop {
+		display: block;
+	}
+	
+	#hero{
+		background-image: url(../images/hero.jpg);
+		height: 50vh;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+	
+	#hero h1 a{
+		text-decoration: none;
+	}
+	
+	#logo img{
+		width: 150px;
+		float: left;
+		padding-left: 5%;
+		padding-right: 2%;
+		
+	}
+	
+	/*Navigation Bar*/
+	nav{
+		background-color:#0032A0;
+	}
+	
+	nav ul {  
+		list-style: none;
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	nav li{
+		display: inline-block;
+		width: 20%;
+		
+	}
+
+	nav ul li a {
+		display:block;
+		text-decoration: none;
+		font-weight: bold;
+		color: #FFFFFF;
+		font-family: 'Almarai', Helvetica, sans-serif;
+	}
+	
+	nav ul li a, .dropbtn {
+		font-size: 20px;
+		display: inline-block;
+		color: #FFFFFF;
+		text-align: center;
+		width: 100%;
+		padding-top: 2em;
+		padding-bottom: 2em;     
+		text-decoration: none;
+	}
+	
+	nav ul li div, .dropbtn{
+		display: inline-block;
+		color: #FFFFFF;
+		text-align: center;
+		width: 100%;
+		font-weight: bold;
+		text-decoration: none;
+		font-family: 'Almarai', Helvetica, sans-serif;
+	}
+	
+	nav ul li a:hover, .prim-dd:hover .dropbtn {
+		background-color: #002a87;
+		
+	}
+	
+	nav ul li.prim-dd {
+		display: inline-block;
+		width: 25%;
+	}
+	
+	.sub-dd {
+		display: none;
+		position: absolute;
+		width: 25%;
+		text-align: center;
+		background-color: #002a87;
+		border-top: 3px solid #FFFFFF;
+	}
+	
+	.sub-dd a {
+		color: #FFFFFF;
+		text-decoration: none;
+		display: block;
+		text-align: center;
+	}
+	
+	.sub-dd a:hover {
+		background-color: #00226d;
+	}
+
+	.prim-dd:hover .sub-dd {
+		display: block;
+	}
+	
+	
+	
+	article{
+		text-align: center;
+	}
+	
+	h1{
+		text-align: center;
+		font-family: 'Vollkorn', Georgia, serif;
+	}
+	.sports-container{
+		text-align: center;
+	}
+	
+	/*div sections in home*/
+	.parent { 
+		margin: 1em;
+		padding: 3em 3em;
+		text-align: center; 
+		flex-wrap: wrap;
+	} 
+	.child { 
+		display: inline-block;
+		padding: 1em 1em;
+		margin: 1em 2em;
+		vertical-align: middle;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		
+	}
+	
+	.child p{
+		font-family: 'Almarai', Helvetica, sans-serif;
+		font-size: 15px;
+	}
+	
+	/*div sections in about*/
+	.parent-about{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		margin: 5px 0;
+	}
+	.child-about{
+		flex: 1;
+		margin: 1em 2em;
+		padding: 10px;
+		text-align: center;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	}
+	
+	.child-about h2{
+		font-family: 'Vollkorn', Georgia, serif;
+	}
+	.child-about p{
+		font-family: 'Almarai', Helvetica, sans-serif;
+	}
+	
+	
+	
+	
+	/*table in home*/
+	table{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	caption{
+		font-size: 30px;
+		font-family: 'Vollkorn', Georgia, serif;
+		font-weight: bold;
+	}
+	table, th, td {
+		border: 1px solid white;
+		border-collapse: collapse;
+	}
+	th, td {
+		background-color: #0032A0;
+		color: #FFFFFF;
+		font-family: 'Almarai', Helvetica, sans-serif;
+		padding: 1em;
+		text-align: center;
+	}
+	th{font-size: 25px;}
+	
+	td{font-size: 20px;}
+	
+	.table-events th, td{
+		padding: 10px;
+	}
+
+	.mobile, .moble-nav , .menu-icon div {
+		display: none;
+	}
+	
+	.mobile-nav {
+		display: none;
+	}
+	
+} /* End Brace for Media Query */
+
+/* Media Query for Desktop's Form Viewport */
+@media screen and (min-width: 1280px), print{
+	
+	form {
+        width: auto;
+        margin-bottom: 2%;
+    }
+    
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px; 
+    }
+    
+    .btn {
+        grid-column: 1 / span 3;
+    }
+	
+}
+
+
+
