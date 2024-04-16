@@ -24,7 +24,7 @@ body {
 /* Style rule for header content*/
 
 .ban-img{
-	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../images/cloud.jpg);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../images/cloud2.jpg);
 	height: 50vh;
 	background-position: center center;
 	background-size: cover;
@@ -58,10 +58,6 @@ img {
 	max-width: 100%
 }
 
-video{
-	width: 100%;
-	height: auto;
-}
 .service{
 	color: #0032A0;
 }
@@ -76,17 +72,6 @@ video{
 .opp:visited{
 	color: #808080;
 }
-.ticket-link{
-	color: #0032A0;
-	text-decoration: none;
-}
-.ticket-link:active{
-	font-size: 30px;
-	color: #FFFFFF;
-	background: #0032A0;
-	text-decoration: none;
-}
-
 .email-num, .link{
 	color: #0032A0;
 	font-weight: bold;
